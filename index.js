@@ -21,7 +21,7 @@ btn.addEventListener("click", async ()=>{
         a.href = URL.createObjectURL(x.data);
         console.log(x.data);
         a.download = 'junaid.mp4';
-        // a.click();
+         a.click();
 
     });
 });
